@@ -6,9 +6,10 @@ import org.junit.jupiter.api.Test;
 
 class MyMathTest {
 
+	MyMath myMath = new MyMath();
+	
 	@Test
-	void test() {
-		fail("Not yet implemented");
+	public void sum_3numbers() {
+		assertEquals(6, myMath.sum(new int[] {1, 2, 3}));
 	}
-
 }
