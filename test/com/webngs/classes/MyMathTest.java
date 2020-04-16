@@ -12,4 +12,9 @@ class MyMathTest {
 	public void sum_3numbers() {
 		assertEquals(6, myMath.sum(new int[] {1, 2, 3}));
 	}
+	
+	@Test
+	public void sum_1number() {
+		assertEquals(2, myMath.sum(new int[] {2}));
+	}
 }
